@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background:#fff;
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	margin:0 0 0.5em;
+}
+h1 {font-size: 34px;}
+h2 {font-size: 26px;}
+h3 {font-size: 24px;}
+h4 {font-size: 22px;}
+h5 {font-size: 20px;}
+h6 {font-size: 18px;}
+
+img {
+	max-width:100%;
+}
+
+p {
+	margin:0 0 0.5em;
+}
+hr {
+	color: grey;
+	height: 3px;
+}
+.negativ {
+	color:#fff;
+}
+
+
+a:link,
+a:visited {
+	color:#094186;
+	text-decoration:none;
+}
+a:hover {	
+	color:#326aae;
+}
+.wrapper {
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#header {
+	background:#FFF;
+	height:80px;
+	padding:20px;
+}
+#logo {
+	float:left;
+}
+
+#button {
+	float:right;
+}
+.dugme {
+	background: rgba(9, 65, 134, 0);
+    border-radius: 5px;
+    color: #094186;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 14px 28px 13px;
+	margin:20px 5px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.dugme:hover {
+	background: rgba(9, 65, 134, 1);
+	color:#fff;
+}
+#front {
+	background:url(images/top.jpg) center center no-repeat;
+	background-size:cover;
+	padding:220px 0;
+	color:#000;
+}
+#front .dugme {
+	background: rgba(9, 65, 134, 1);
+	color:#fff;
+}
+
+#front h1 {
+	font-size:60px;
+	margin-bottom:30px;
+}
+#front p {
+	font-size:30px;
+	margin-bottom:20px;
+}
+.baner { 
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding:15px;
+	background: #FFF;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.4);
+	width: 700px;
+}
+.baner h3 {
+	font-size: 30px;
+}
+.baner .dugme {
+	background: rgba(9, 65, 134, 1);
+	color:#fff;
+}
+
+.placeholder {
+	border: 2px solid #094186;
+	padding: 12px;
+	border-radius: 3px;
+	width: 500px;
+}
+.tri {
+	width:350px;
+	margin:40px 75px 0 0;
+	float:left;
+}
+
+.tri:nth-of-type(3n) {
+	margin-right:0;
+}
+.tri h2 {
+	font-size: 30px;
+}
+.tri h2,
+.tri p {
+	color: #FFF;
+}
+
+
+#main {
+	background: #FFF;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#main h2 {
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+#main img {
+	margin-bottom: 100px;
+}
+#info {
+
+}
+.info_info {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+#info .info_info img {
+	float: right;
+}
+.info_text {
+	margin: 100px 120px;
+	width: 400px;
+	height: 400px;
+	text-align: left;
+	font-size: 25px;
+}
+#busines {
+	background: rgb(245, 238, 238);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 20px;
+}
+.busines h2 {
+	padding-top: 100px;
+}
+
+.yourBusines {
+	width:350px;
+	float:left;
+	margin:40px 75px 100px 0;
+}
+.yourBusines:nth-of-type(3n) {
+	margin:40px 0 100px 0;
+}
+.yourBusines h3 {
+	color: rgb(243, 184, 57);
+}
+.number {
+	position: relative;
+    top: 115px;
+    left: 35px;
+    float: left;
+    margin-right: 10px;
+    color: rgb(243, 184, 57);
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 39px;
+}
+.question {
+	position: relative;
+	width: 550px;
+	float: left;
+	padding-right: 20px;
+}
+.question hr {
+	color: grey;
+}
+.question a:link,
+.question a:visited {
+	color: blue;
+}
+.question a:hover {
+	color: grey;
+}
+#front2 {
+	background:url(images/first.jpg) center center no-repeat;
+	background-size:cover;
+	padding:220px 0;
+	color:#000;
+}
+#front2 .dugme {
+	background: rgba(9, 65, 134, 1);
+	color:#fff;
+}
+
+#front2 h1 {
+	font-size:60px;
+	margin-bottom:30px;
+	color: #FFF;
+}
+#front3 {
+	padding: 100px 0;
+}
+.cetiri {
+	width: 290px;
+	float: left;
+}
+.cetiri h3 {
+	font-size: 30px;
+}
+.cetiri a:link,
+.cetiri a:visited {
+	color: grey;
+	font-weight: bold;
+	font-size: 20px;
+}
+.cetiri a:hover {
+	color: #000;
+}
+#footer {
+	text-align: left;
+	padding: 5px 0 10px;
+	border-top: 3px solid grey;
+}
+#footer p a {
+	color: grey;
+}
+
+
+
